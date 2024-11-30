@@ -1,0 +1,60 @@
+.header {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    margin: auto;
+    padding: 1px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    gap: 10px;
+}
+
+.header-title {
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.3em;
+    
+}
+
+.title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: rgb(0, 56, 0);
+}
+
+.input {
+    width: 100%;
+}
+
+.form {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    background-image: url("job-candidate.jpg");
+    background-blend-mode: lighten;
+    background-color: rgba(255, 255, 255, 0.65);
+    width: 400px;
+    margin: auto;
+    margin-top: 10px;
+    padding: 35px;
+    border-radius: 35px;
+    box-shadow: inset 0 0 0 1000px rgba(0, 194, 0, 0.3), 0 7px 10px #575757;
+}
+
+.comments {
+    width: 100%;
+}
+
+.button {
+    margin-top: 25px;
+    width: 100%;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: rgb(74, 196, 94);
+    box-shadow: 0 4px 7px #383838;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+}

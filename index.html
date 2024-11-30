@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <div>
+            <img src="copy_of_IFALvertical.png" width="100px">
+        </div>
+        <div>
+            <h1 class="header-title">Inscrição no Estágio</h1>
+        </div>
+    </div>
+    <div class="form">
+        <form>
+            <div class="nome">
+                <h2 class="title">
+                    Nome:
+                </h2>
+                <input type="text" class="input" placeholder="Nome completo" required>
+            </div>
+            <div class="email">
+                <h2 class="title">
+                    Email:
+                </h2>
+                <input type="email" class="input" placeholder="texto@gmail.com" required>
+            </div>
+            <div class="telefone">
+                <h2 class="title">
+                    Telefone:
+                </h2>
+                <input type="text" class="input" placeholder="82901234567" required>
+            </div>
+            <div class="area">
+                <h2 class="title">
+                    Área de Interesse:
+                </h2>
+                <select class="input" required>
+                    <option value="">Selecione...</option>
+                    <option value="0">Web Developer</option>
+                </select>
+            </div>
+            <div class="sexo">
+                <h2 class="title">
+                    Sexo:
+                </h2>
+                <input type="radio" name="sexo" id="sexmasc" required>
+                <label for="sexmasc" class="title">Masculino</label>
+                <input type="radio" name="sexo" id="sexfem">
+                <label for="sexfem" class="title">Feminino</label>
+                <input type="radio" name="sexo" id="sexoutro">
+                <label for="sexoutro" class="title">Outro</label>
+            </div>
+            <div class="skills">
+                <h2 class="title">
+                    Skills:
+                </h2>
+                <div style="display: flex; flex-flow: column wrap; gap: 5px;">
+                    <div>
+                        <input type="checkbox" name="skills" id="html">
+                        <label for="html" class="title">HTML</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="skills" id="css">
+                        <label for="css" class="title">CSS</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="skills" id="js">
+                        <label for="js" class="title">JavaScript</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="skills" id="bs">
+                        <label for="bs" class="title">BootStrap</label>
+                    </div>
+                </div>
+            </div>
+            <div class="comments">
+                <h2 class="title">
+                    Comentários:
+                </h2>
+                <textarea class="comments" rows="6"></textarea>
+            </div>
+            <div class="enviar">
+                <button class="button" type="submit">Enviar</button>
+            </div>
+        </div>
+        </form>
+    </div>
+</body>
+</html>
